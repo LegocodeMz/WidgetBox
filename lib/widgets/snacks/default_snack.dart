@@ -1,5 +1,5 @@
-import 'package:aprova/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:widgetbox/utils/constants/colors.dart';
 
 class DefaultSnackBar extends StatelessWidget {
 
@@ -35,7 +35,7 @@ class DefaultSnackBar extends StatelessWidget {
               ),
             ],
           ),
-          backgroundColor: MOZTOP_RED,
+          backgroundColor: RED,
         )
     );
   }
