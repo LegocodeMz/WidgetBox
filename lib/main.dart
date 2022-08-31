@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:widgetbox/routes/app.dart';
+import 'package:widgetbox/utils/constants/colors.dart';
+import 'package:widgetbox/views/home.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.indigo)
               .copyWith(secondary: ACCENT)),
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
-      initialRoute: Main.routeNamed,
+      initialRoute: MainPage.routeNamed,
       routes: routes,
       debugShowCheckedModeBanner: false,
     );
