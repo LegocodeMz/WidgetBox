@@ -1,7 +1,8 @@
 import 'package:flutter/widgets.dart';
+import 'package:widgetbox/views/home.dart';
 
 final Map<String, WidgetBuilder> routes = {
-  Main.routeNamed: (context) => new Main(),
+  MainPage.routeNamed: (context) => new MainPage(),
 };
 
 // Language: dart
