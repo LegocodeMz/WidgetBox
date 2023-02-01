@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:widgetbox/utils/constants/colors.dart';
 import 'package:widgetbox/utils/drawer/headerInfo.dart';
 import 'package:widgetbox/utils/drawer/listInfo.dart';
 import 'package:widgetbox/utils/drawer/userInfo.dart';
-import 'package:widgetbox/utils/themes/theme_switch.dart';
 
 class CustomDrawer extends StatefulWidget {
   const CustomDrawer({Key? key}) : super(key: key);
@@ -27,7 +27,7 @@ class _CustomDrawerState extends State<CustomDrawer> {
             bottomRight: Radius.circular(10),
             topRight: Radius.circular(10),
           ),
-          color: Color(0xFFAD3D3D),
+          color: SECONDARY,
         ),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -58,7 +58,7 @@ class _CustomDrawerState extends State<CustomDrawer> {
                 infoCount: 0,
                 doHaveMoreOptions: Icons.arrow_forward_ios,
               ),
-              const ThemeSwitch(),
+              // const ThemeSwitch(),
               const Divider(color: Colors.grey),
               const Spacer(),
               InfoListTile(

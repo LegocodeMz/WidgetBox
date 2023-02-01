@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 const Color BLUE = Color(0xFF3F51B5);
 const Color ACCENT = Color(0xFFE91E63);
-const Color PRIMARY = Color(0xFF2196F3);
+const Color PRIMARY = Color(0xFF04fdd8);
 const Color PRIMARY_DARK = Color(0xFF1976D2);
 const Color PRIMARY_LIGHT = Color(0xFFBBDEFB);
-const Color SECONDARY = Color(0xFF9C27B0);
+const Color SECONDARY = Color(0xFFa51cfd);
 const Color SECONDARY_DARK = Color(0xFF7B1FA2);
 const Color SECONDARY_LIGHT = Color(0xFFE1BEE7);
 const Color WHITE = Color(0xFFFFFFFF);
@@ -40,6 +40,7 @@ const Color BROWN_DARK = Color(0xFF5D4037);
 const Color BLUE_GREY = Color(0xFF607D8B);
 const Color BLUE_GREY_LIGHT = Color(0xFFCFD8DC);
 const Color BLUE_GREY_DARK = Color(0xFF455A64);
+const Color TRANSPARENT = Color(0x00000000);
 
 // Language: dart
 // Path: lib\utils\constants\colors.dart

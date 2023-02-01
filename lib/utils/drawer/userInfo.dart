@@ -106,7 +106,7 @@ class UserInfo extends StatelessWidget {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: Image.network(
-                        'https://t3.ftcdn.net/jpg/02/99/21/98/360_F_299219888_2E7GbJyosu0UwAzSGrpIxS0BrmnTCdo4.jpg',
+                        'https://avatars.githubusercontent.com/u/54830544?v=4',
                         fit: BoxFit.cover,
                       ),
                     ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetbox/utils/constants/colors.dart';
 
 class DrawerHeaderInfo extends StatelessWidget {
   final bool isColapsed;
@@ -17,7 +18,11 @@ class DrawerHeaderInfo extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const FlutterLogo(size: 30),
+          CircleAvatar(
+            backgroundColor: BLACK,
+            child: Image.asset('lib/assets/icon/plan_logo.png',
+                fit: BoxFit.fitWidth),
+          ),
           if (isColapsed) const SizedBox(width: 10),
           if (isColapsed)
             const Expanded(
